@@ -1,0 +1,419 @@
+body{
+    background-image: url("back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: 100% 100%;
+    margin: 20px;
+    }
+    .menu{
+    width: 101%;
+    height: 50px;
+    background-image: linear-gradient(black,red,black);
+    font-family:  Arial, sans-serif;
+    font-size: 25px;
+    }
+    .menu ul{
+    list-style: none;
+    left: 0%;
+    padding-left: 0%;
+    }
+    .menu ul li{
+    width: 300px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .menu ul li a{ 
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    }
+    .menu ul ul{
+    position: absolute; 
+    visibility: hidden;
+    }
+    .menu ul li:hover ul{
+    visibility: visible;
+    position: absolute;
+    font-size: 25px;
+    }
+    .menu ul ul li{
+    background-color: red;
+    float: none;
+    position: relative;
+    }
+    .menu a:hover{
+        background-image: linear-gradient(black,black,black,red,black);
+    }
+    h2{ position: center;
+        bottom: -14%;
+        left: 28%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: white;
+        padding: 0 33%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-image: linear-gradient(red,red,red,black,red,red);
+        background-clip: text;
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        line-height: 1.1;
+        text-align: center;
+    }
+    h3{ 
+    bottom: -14%;
+    left: 28%;
+    font-style: italic;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    }
+    div ul li a:hover{
+        color: red;   
+    }
+    p{
+        color: white;
+        font-style: italic;
+        font-size: 30px;
+        max-width: 70%;
+    }
+    h1{
+    color:white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0 38%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    }
+    a {
+        color:white;
+    }
+    header{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .escudospfc3{
+        position: absolute;
+        right: 180px;
+        margin-top: 280%;
+    }
+    .tricolorspfc{
+    position: absolute;
+    right: 200px;
+    }
+    .tricolorspfc2{
+        position: absolute;
+        right: 190px;
+        margin-top: -37%;
+        padding: 0% 200% ;
+    }
+    .tricolor{
+        margin-top: -25%;
+        padding: 0% 60% ;
+    }
+    .taça{
+        position: absolute;
+        right: 60px;
+        margin-top: 115%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .mundialspfc{
+        position: absolute;
+        right: 60px;
+        margin-top: 55%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .spfc2{
+        position: absolute;
+        right: 50px;
+        margin-top: 205%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .spfc1{
+        position: absolute;
+        right: 40px;
+        margin-top: 450%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);    
+    }
+    .spfc3{
+        position: absolute;
+        right: 40px;
+        margin-top: 527%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);   
+    }
+    .spfc4{
+        position: absolute;
+        right: 50px;
+        margin-top: 265%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor4{
+        position: absolute;
+        right: 10px;
+        margin-top: 48%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor11{
+        position: absolute;
+        right: 440px;
+        margin-top: 48%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor7{
+        position: absolute;
+        right: 880px;
+        margin-top: 48%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor12{
+        position: absolute;
+        right: 10px;
+        margin-top: 100%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor8{
+            position: absolute;
+            right: 10px;
+            margin-top: 153%;
+            border: 7px double ;
+            background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor10{
+        position: absolute;
+        right: 880px;
+        margin-top: 100%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor9{
+        position: absolute;
+        right: 880px;
+        margin-top: 153%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .tricolor13{
+        position: absolute;
+        right: 440px;
+        margin-top: 153%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);    
+    }
+    .imagem4bruno{
+        position: absolute;
+        right: 10px;
+        margin-top: 160%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    h4{
+        position: center;
+        bottom: -14%;
+        left: 28%;
+        font-size: 40px;
+        color: red;
+        padding: 0 33%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: linear-gradient(red,red,red,black,red,red);
+        background-clip: text;
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        }
+    .escudospfc{
+        position: absolute;
+        right: 290px;
+        margin-top: 192%;
+    }
+    .escudospfc1{
+        position: absolute;
+        right: 810px;
+        margin-top: 192%;
+    }
+    .escudospfc2{
+        position: absolute;
+        right: 1050px;
+        margin-top: 192%;
+    }
+    .escudospfc3{
+        position: absolute;
+        right: 585px;
+        margin-top: 192%;
+    }
+    .escudospfc4{
+        position: absolute;
+        right: 0px;
+        margin-top: 192%;
+    }
+    #cor{
+    width: 100%;
+    height: 22px;
+    background-image: linear-gradient(black,red,black,black,red,black);
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        background-image: linear-gradient(black,red,black,black,red);
+        color: whitesmoke;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: -3px;
+        margin-top: 100%;
+    }
+    .tricolor14{
+        position: absolute;
+        right: 440px;
+        margin-top: 100%;
+        border: 7px double red;
+        background-image: linear-gradient(black,red,black,black,red,black,red);
+    }
+    main{
+        max-width: 1200px;
+        width: 100%;  
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      }
+    .container{
+        position: relative;
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        margin: 0 auto;
+        margin-left:auto;
+    }
+    .formulario{
+        background-image: linear-gradient(black,red,black,red,black,black,red,black);
+        width: 25%;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border: 11px double red;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+    #submit{
+        border: none;
+        width: 150px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 7px double red;
+        border-style: outset;
+    }
+    fieldset{
+        border: 7px  black;  
+        font-style: italic;
+        font-weight:bold;
+        font-family: "Segoe UI","Arial","Times New Roman";
+    }
+    section{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .mapadosite  li{
+        list-style: none;
+        padding: 2px;
+        display: inline;
+    }
+    .mapadosite h3{
+        color: white;
+        
+    }
+    .mapadosite ul li a:hover{
+        color: red;
+    }
+    #submit:hover{
+        color: red;
+    }
+    .titulosspfc{
+        position: absolute;
+        right: 50px;
+        margin-top: 360%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .basquete1{
+        position: absolute;
+        right: 110px;
+        margin-top: 40%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .basquete2{
+        position: absolute;
+        right: 110px;
+        margin-top: 85%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .feminino1{
+        position: absolute;
+        right: 100px;
+        margin-top: 150%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .feminino2{
+        position: absolute;
+        right: 100px;
+        margin-top: 200%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .feminino3{
+        position: absolute;
+        right: 100px;
+        margin-top: 245%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    .simbolotricolor{
+        position: absolute;
+        right: 100px;
+        margin-top: 330%;
+        border: 7px double ;
+        background-image: linear-gradient(black,red,black,black,red);
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
